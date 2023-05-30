@@ -15,3 +15,10 @@ document.querySelectorAll('.gambar img').forEach(image => {
 document.querySelector(".popup_img span").onclick = () =>{
     document.querySelector(".popup_img").style.display = "none";
 }
+
+const tombol = document.querySelector('.explore')
+
+tombol.addEventListener('click', () => {
+    window.location.href = "./explore.html"
+})
+
