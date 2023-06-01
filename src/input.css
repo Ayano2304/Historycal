@@ -12,15 +12,16 @@
     body{
         background-color: #111b21;
         color: #fefefe;
+        overflow-x: hidden;
     }
 
-    .explore{
+    /* .explore{
         left: 0;
         right: 0;
-        width: 55%;
+        width: 55%; 
         margin: auto;
     }
-
+ */
     .gallery{
         width: 100%;
         height: 100vh;
