@@ -16,6 +16,11 @@
 
 </head>
 <body>
+
+	<audio autoplay>
+        <source src="./pleassure.mp3" type="audio/mp3" />
+    </audio>
+
 	<div data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" class="">
 		<nav class="flex lg:ml-[14rem] lg:justify-between items-center justify-between mx-7 h-[6rem] ">
 			<div class="logo font-bold lg:text-2xl text-[48px]">Our History</div>
@@ -24,10 +29,13 @@
 				<li><a href="#service">Service</a></li>
 				<li><a href="#contact">Contact</a></li>
 			</ul>
-			<div class="menu cursor-pointer">
-				<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-[72px] lg:hidden cursor-pointer">
+			<div class="cursor-pointer relative">
+				<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" 
+				class="menu w-[72px] lg:hidden cursor-pointer">
     			<path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
 				</svg>
+				<svg class="close absolute top-0 right-0 hidden" xmlns="http://www.w3.org/2000/svg" width="68" height="68" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" 
+				stroke-linejoin="round" class="lucide lucide-x"><line x1="18" x2="6" y1="6" y2="18"></line><line x1="6" x2="18" y1="6" y2="18"></line></svg>
 			</div>
 		</nav>
 	</div>
@@ -42,8 +50,8 @@
 
 		<section>
 			<div data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" class="">
-				<div class="side justify-center flex-wrap flex lg:flex-nowrap">
-					<img data-aos="fade-down" data-aos-delay="100" data-aos-duration="1000" src="asset/img/1646538438732.jpg" alt="history" class="rounded-[35px] w-[44rem] lg:w-[34rem] object-cover mx-10 mt-8" >
+				<div data-aos="fade-down" data-aos-delay="100" data-aos-duration="1000"  class="side justify-center flex-wrap flex lg:flex-nowrap">
+					<img src="asset/img/1646538438732.jpg" alt="history" class="rounded-[35px] w-[44rem] lg:w-[34rem] object-cover mx-10 mt-8" >
 					<div class="text flex justify-center lg:items-center items-center ">
 						<h3 class="inline mt-4 mx-4 text-center lg:text-[40px] text-[30px] items-center w-1/2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi pariatur expedita quibusdam dolor repudiandae quam iste laudantium reprehenderit <span class="text-red-600 font-semibold underline">Explore More </span></h3>
 					</div>

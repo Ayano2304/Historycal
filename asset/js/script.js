@@ -1,8 +1,13 @@
 const menu = document.querySelector('.menu') // Tombolnya 
 const toggle = document.querySelector('.mobile_menu') //Menu List nya
+const close_bar = document.querySelector('.close')
 
 menu.addEventListener('click', () => {
     toggle.classList.toggle('hidden')
+})
+
+close_bar.addEventListener('click', () => {
+    menu.classList.toggle('hidden')
 })
 
 document.querySelectorAll('.gambar img').forEach(image => {
